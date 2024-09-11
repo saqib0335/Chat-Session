@@ -1,0 +1,19 @@
+.messages-container {
+    color: #fff;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Keep the gradient or background style consistent */
+    border-radius: 8px;
+    height: 100vh;
+  }
+  
+  .messages-list {
+    margin-top: 1rem;
+  }
+  
+  .message-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+  }
+  

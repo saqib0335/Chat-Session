@@ -1,0 +1,47 @@
+.chat-sessions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 2rem;
+}
+.chat-session-item {
+  background-color: transparent;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  width: 14rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-session-item:hover {
+  border: 1px solid rgba(65, 88, 208, 0.13);
+  box-shadow: 0 0 5px rgba(65, 88, 208, 0.1), 0 0 10px rgba(200, 80, 192, 0.1),
+    0 0 15px rgba(255, 204, 112, 0.1), 0 0 20px rgba(255, 204, 112, 0.1),
+    0 0 25px rgba(255, 204, 112, 0.1), 0 0 30px rgba(255, 204, 112, 0.1),
+    0 0 35px rgba(255, 204, 112, 0.1), 0 0 40px rgba(255, 204, 112, 0.1),
+    0 0 45px rgba(255, 204, 112, 0.1), 0 0 50px rgba(255, 204, 112, 0.1);
+}
+
+.chat-session-item-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  padding-bottom: 0.1rem;
+}
+.chat-session-item-content {
+  padding-top: 1rem;
+}
+.chat-session-detail {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  margin-bottom: 8px;
+}
